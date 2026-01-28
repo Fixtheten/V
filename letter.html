@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Heart 💜</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      background: #ff9bbd;
+    }
+    section {
+      background: transparent url('letter.jpg') center/contain no-repeat !important;
+      box-shadow: none !important;
+      border: none !important;
+      border-radius: 20px !important;
+      backdrop-filter: none !important;
+      position: relative;
+      min-height: 600px;
+    }
+    section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        radial-gradient(circle at 20% 50%, rgba(139, 90, 43, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(139, 90, 43, 0.02) 0%, transparent 50%);
+      pointer-events: none;
+      border-radius: 20px;
+    }
+    .letter-container {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      text-align: left;
+      line-height: 1.7;
+      color: #2c2416;
+    }
+    .letter-container p {
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      opacity: 0.95;
+    }
+    .letter-container h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: #3d2817;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+    </header>
+
+    <main class="main">
+      <section>
+        <div class="letter-container">
+          <br></br>
+          <br></br>
+          <br></br>
+          <p>To the love of my life,</p>
+          <p>Baby, you make me the most loved person in the world. I'm so so grateful to have you with me.</p>
+          <p>Happy anniversary, my baby. Time has passed by quickly but our relationship feels mature. I can't wait to hug you and give you the most loving hug ever. We will have a longer than 6 second kiss and a 20 second hug. I cannot wait to book my tickets and be with my baby.</p>
+          <p>For once I can rely on someone and share knowing that I won't be judged. I have never felt insecure in our relationship and it's all thanks to you. The inner kid in me comes out whenever I am talking to you. You make loving you extremely easy for me. This love that we pour out to each other just comes out so naturally. With you I feel blessed. You complete me, Virginia.</p>
+          <p>I know I am not present with you right now. I cannot get you flowers for Valentine's Day, cannot get you chocolates, cannot take you on dates and much more. I hate every bit of it, but I will make sure you get everything you deserve and more. I will show you the amount of love I have for you.</p>
+          <p>I have found another me. It's funny how this works but you want the same stuff in life as me. We have so much in common and to top it off, we also look similar. I am extremely happy with our relationship and I want to cherish it forever. Making you happy keeps me happy. Seeing you smile makes me smile. You take away everything heavy from my chest and I love that feeling.</p>
+          <p>I love you, MY WIFE. I will always have a crush on you.</p>
+          <br></br>
+          <br></br>
+        </div>
+
+
+      </section>
+              <div class="btn-row">
+          <button class="btn" onclick="window.location.href='index.html'">
+            Return Home
+          </button>
+          <button class="btn" onclick="window.location.href='ask.html'">
+            The Final Question 💖
+          </button>
+        </div>
+    </main>
+
+    <footer class="footer">With all my love, always 💜</footer>
+  </div>
+
+  <script>
+    // Simple referrer check
+    if (!document.referrer.includes('days.html')) {
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>
